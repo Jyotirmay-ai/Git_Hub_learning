@@ -1,4 +1,4 @@
-## Git Version Control Setup
+## Git Version Control Setup for a new project
 
 If you want to track this project with Git and push to GitHub, run the following commands inside the project folder:
 
@@ -17,6 +17,9 @@ git remote add origin https://github.com/your-username/your-repo-name.git
 git branch -M main
 git push -u origin main
 ```
+
+
+
 
 ## How to Save and Upload Future Changes
 
