@@ -2,17 +2,24 @@
 
 If you want to track this project with Git and push to GitHub, run the following commands inside the project folder:
 
+
+###  1. Start tracking the project
 ```bash
-# 1. Start tracking the project
 git init
+```
 
-# 2. Add all your files (the .gitignore will leave out the virtual environments)
+### 2. Add all your files (the .gitignore will leave out the virtual environments)
+```bash
 git add .
+```
 
-# 3. Create the first commit
+### 3. Create the first commit
+```bash
 git commit -m "Initial commit: Completed project"
+```
 
-# 4. Connect to your empty GitHub repository and push (Replace the URL below!)
+### 4. Connect to your empty GitHub repository and push (Replace the URL below!)
+```bash
 git remote add origin https://github.com/your-username/your-repo-name.git
 git branch -M main
 git push -u origin main
